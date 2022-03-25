@@ -2,7 +2,7 @@ import { GifGridItem } from "../GifGridItem"
 
 import { useFetchGifs } from "../hooks/useFetchGifs"
 
-export const GifGrid = ({ category }) => {
+export const GifGrid = ({ category }: any) => {
 
   const { data: images, loading } = useFetchGifs( category )
 
@@ -16,6 +16,7 @@ export const GifGrid = ({ category }) => {
           {
             images.map( img => (
               <GifGridItem
+                // @ts-ignore
                 key = {img.id}
                 {...img}
               />

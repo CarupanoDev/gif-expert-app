@@ -1,11 +1,11 @@
-export const getGifs = async ( category ) => {
+export const getGifs = async ( category: any ) => {
   const apiKey = "4MT1CivNv3MY2zunDJOdrgpiQBu4N4a5"
   const url = `https://api.giphy.com/v1/gifs/search?q=${encodeURI(category)}&limit=3&api_key=${apiKey}`
   const resp = await fetch(url)
 
   const { data } = await resp.json()
 
-  const gifs = data.map( img => {
+  const gifs = data.map( (img: any) => {
     return {
       id : img.id,
       title: img.title,

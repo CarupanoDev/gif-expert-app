@@ -7,15 +7,15 @@ export const AddCategory = ({ setCategories }: any) => {
 
   const [inputValue, setInputValue] = useState<string>('');
 
-  const handleInputChange = (e: React.FormEvent<HTMLInputElement>) => {
+  const handleInputChange = (e: any) => {
       setInputValue(e.target.value)
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault();
 
     if (inputValue.trim().length > 2){
-      setCategories(categories => [inputValue, ...categories])
+      setCategories((categories: any) => [inputValue, ...categories])
       setInputValue('')
     }
   }
