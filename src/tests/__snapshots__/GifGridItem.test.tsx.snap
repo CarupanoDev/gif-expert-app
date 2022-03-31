@@ -1,0 +1,17 @@
+// Vitest Snapshot v1
+
+exports[`Test on <GiftGrid/> > It should show the component correctly 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  />
+  <p
+    className="animate__animated animate__flash"
+  >
+    Loading
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;

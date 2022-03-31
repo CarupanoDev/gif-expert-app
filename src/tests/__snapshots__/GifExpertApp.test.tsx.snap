@@ -1,0 +1,49 @@
+// Vitest Snapshot v1
+
+exports[`Test on <GifExpertApp/> > It shoul show the component correctly 1`] = `
+<Fragment>
+  <h2>
+    GifExpertApp
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;
+
+exports[`Test on <GifExpertApp/> > It should show a list of categories 1`] = `
+<Fragment>
+  <h2>
+    GifExpertApp
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      category="Inuyasha"
+      key="Inuyasha"
+    />
+    <GifGrid
+      category="Batman"
+      key="Batman"
+    />
+  </ol>
+</Fragment>
+`;
+
+exports[`Test on <GifExpertApp/> > It should show the component correctly 1`] = `
+<Fragment>
+  <h2>
+    GifExpertApp
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;

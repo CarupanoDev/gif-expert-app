@@ -1,0 +1,15 @@
+// Vitest Snapshot v1
+
+exports[`Test  on AddCategory > it should show component correctly 1`] = `
+<form
+  action=""
+  onSubmit={[Function]}
+>
+  <p />
+  <input
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+</form>
+`;

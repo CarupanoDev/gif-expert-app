@@ -1,0 +1,15 @@
+// Vitest Snapshot v1
+
+exports[`Test on <GifGridItem/> > It should show the component correctly 1`] = `
+<div
+  className="card animate__animated animate__fadeIn"
+>
+  <img
+    alt="The best app"
+    src="https://localhost/algo.jpg"
+  />
+  <p>
+    The best app
+  </p>
+</div>
+`;

@@ -1,4 +1,9 @@
-export const GifGridItem = ({ title, url }: any) => {
+interface GifGridTypes {
+  title: string,
+  url: string
+}
+
+export const GifGridItem = ({ title, url }: GifGridTypes) => {
 
   return (
     <div className="card animate__animated animate__fadeIn">
